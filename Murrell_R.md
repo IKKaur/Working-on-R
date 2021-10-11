@@ -54,7 +54,8 @@ hist(Y, breaks=seq(-3.5, 3.5), ylim=c(0, 0.5),
 lines(x, dnorm(x), lwd=2)
 par(mar=c(5.1, 4.1, 4.1, 2.1))
 
-![Rplot09](https://user-images.githubusercontent.com/90278106/136729505-cfdad471-a8c2-4022-a1f5-5a9dd48ec9bf.png)
+
+![Rplot09n](https://user-images.githubusercontent.com/90278106/136730364-98ed51b6-f464-4790-bccb-4afae3a15221.jpg)
 
 # CREATING A BARPLOT 
 par(mar=c(2, 3.1, 2, 2.1)) 
@@ -69,7 +70,8 @@ text(rep(midpts, each=5), apply(VADeaths, 2, cumsum) - VADeaths/2,
      cex=0.8)
 par(mar=c(5.1, 4.1, 4.1, 2.1)) 
 
-![Rplot10](https://user-images.githubusercontent.com/90278106/136729581-26bef18b-b878-4476-bbca-adc867a1776f.png)
+![Rplot10n](https://user-images.githubusercontent.com/90278106/136730388-dc345f26-b3c4-4e40-a38d-48f5e402ade9.jpg)
+
 
 # CREATING A BOXPLOT
 par(mar=c(3, 4.1, 2, 0))
@@ -88,7 +90,8 @@ legend(1.5, 9, c("Ascorbic acid", "Orange juice"),
        bty="n")
 par(mar=c(5.1, 4.1, 4.1, 2.1))
 
-![Rplot11](https://user-images.githubusercontent.com/90278106/136729704-7f5769fc-79f0-4005-b022-ee58f98976a6.png)
+![Rplot11n](https://user-images.githubusercontent.com/90278106/136730401-8b49c6f6-4423-4826-a9a2-05774275e30b.jpg)
+
 
 # Persp
 x <- seq(-10, 10, length= 30)
@@ -102,7 +105,8 @@ persp(x, y, z, theta = 30, phi = 30,
       expand = 0.5)
 par(mar=c(5.1, 4.1, 4.1, 2.1), lwd=1)
 
-![Rplot12](https://user-images.githubusercontent.com/90278106/136729763-1d69b200-3ab9-4d95-98fe-6435f28145f7.png)
+![Rplot12n](https://user-images.githubusercontent.com/90278106/136730428-7f02ee21-c4f4-44d6-aa04-5becc927a705.jpg)
+
 
 # CREATING A PIE CHART
 par(mar=c(0, 2, 1, 2), xpd=FALSE, cex=0.5)
@@ -111,4 +115,5 @@ names(pie.sales) <- c("Blueberry", "Cherry",
                       "Apple", "Boston Cream", "Other", "Vanilla")
 pie(pie.sales, col = gray(seq(0.3,1.0,length=6))) 
 
-![Rplot13](https://user-images.githubusercontent.com/90278106/136729825-f9b67c67-659c-40dc-94ca-a8e327b99587.png)
+![Rplot13](https://user-images.githubusercontent.com/90278106/136730448-d8448db0-59de-4d75-a4c2-c8a068a076a5.jpg)
+
