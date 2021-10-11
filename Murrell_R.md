@@ -28,8 +28,6 @@ lines(x, y2)
 points(x, y1, pch=16, cex=2) # Try different cex value?  
 points(x, y2, pch=21, bg="white", cex=2)  # Different background color
 
-![Rplot06](https://user-images.githubusercontent.com/90278106/136729329-1a25c88e-fc7a-4468-96a8-d67412709307.png)
-
 par(col="gray50", fg="gray50", col.axis="gray50")
 axis(1, at=seq(0, 16, 4))
 axis(2, at=seq(0, 6, 2))
@@ -41,7 +39,7 @@ mtext("Responses per Second", side=4, line=2, las=0, cex=0.8)
 text(4, 5, "Bird 131")
 par(mar=c(5.1, 4.1, 4.1, 2.1), col="black", fg="black", col.axis="black")
 
-![Rplot08](https://user-images.githubusercontent.com/90278106/136729352-791e021c-479f-4958-9a3c-d2db44991cd4.png)
+![Rplot08](https://user-images.githubusercontent.com/90278106/136730159-dc7797e6-796a-4063-bf87-4f2b21c786c5.jpg)
 
 # CREATING A HISTOGRAM
 # Random data
